@@ -100,6 +100,8 @@ CONFIRMADO
 PRONTO
 SAIU_PARA_ENTREGA
 ENTREGUE
+
+
 Observações importantes
 Existe apenas um teste de contexto em src/test/java/codex/food/pedidos/PedidosApplicationTests.java.
 A migration src/main/resources/db/migration/V2__cria_tabela_item_pedido.sql parece conter um parêntese extra no final; se o Flyway falhar ao subir, revise esse arquivo.
